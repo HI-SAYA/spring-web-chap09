@@ -9,3 +9,15 @@ spring:
 # mybatis config
 mybatis:
   mapper-locations: mappers/**/*.xml
+
+# 로깅 레벨 바꾸는 방법
+# logging config
+#logging:
+#  level:
+#    root: debug
+
+# 로그 절대 경로에 파일로 남기는 방법
+#logging:
+#  file:
+#    name: myapp.log
+#    path: C:/Lecture/10_Spring/02_sping-web-mvc/chap09-crud
